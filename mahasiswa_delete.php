@@ -10,7 +10,7 @@
     $query = $conn->query($sql);
 
     if ($query) {
-        header('Location: index.php?menu=mahasiswa?deleted=1');
+        header('Location: index.php?menu=mahasiswa&deleted=1');
     } else {
         header('Location: error.html');
     }
