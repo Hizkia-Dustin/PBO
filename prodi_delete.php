@@ -8,7 +8,7 @@
     $query = $conn->query($sql);
 
     if ($query) {
-        header('Location: index.php?menu=prodi?deleted=true');
+        header('Location: index.php?menu=prodi&deleted=1');
     } else {
         header('Location: error.html');
     }
