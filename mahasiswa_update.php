@@ -18,7 +18,7 @@
     $query = $conn->query($sql);
 
     if ($query) {
-        header('Location: index.php?menu=mahasiswa&update=1');
+        header('Location: index.php?menu=mahasiswa&updated=1');
     } else {
         header('Location: error.html');
     }
