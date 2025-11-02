@@ -14,7 +14,7 @@
     $query = $conn->query($sql);
 
     if ($query) {
-        header('Location: index.php?menu=prodi?success=true');
+        header('Location: index.php?menu=prodi&updated=1');
     } else {
         header('Location: error.html');
     }
